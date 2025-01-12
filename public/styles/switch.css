@@ -1,0 +1,33 @@
+.toggle-button {
+  all: unset;
+  background-color: #e8eef2;
+  width: 50px;
+  height: 30px;
+  border-radius: 16px;
+  padding: 2px;
+  box-sizing: border-box;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+
+  &.toggle-button::after {
+    display: block;
+    content: "";
+
+    width: 26px;
+    height: 26px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 0.5px solid rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    transition-duration: 0.4s;
+  }
+
+  &:checked {
+    background-color: #004fff;
+  }
+
+  &:checked.toggle-button::after {
+    transform: translateX(20px);
+  }
+}

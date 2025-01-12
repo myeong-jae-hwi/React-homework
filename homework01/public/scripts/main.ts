@@ -1,6 +1,6 @@
 import React from "../lib/react.js";
 import ReactDOM from "../lib/react-dom/client.js";
-import App from "../components/app";
+import App from "../components/app.js";
 
 const root = document.getElementById("react");
 

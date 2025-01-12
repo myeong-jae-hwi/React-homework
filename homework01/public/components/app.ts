@@ -1,5 +1,5 @@
 import React from "../lib/react.js";
-import SwitchComponent from "./switch";
+import SwitchComponent from "./switch.js";
 
 const { createElement: h } = React;
 

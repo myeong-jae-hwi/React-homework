@@ -43,14 +43,14 @@ pnpm preview
 ```
 
 린팅 검사
-<img width = "4%" src = "homework02/md/image.png"/>
+<img width = "4%" src = "md/image.png"/>
 
 ```sh
 pnpm lint
 ```
 
 포멧팅
-<img width = "3%" src = "homework02/md/prettier-1.svg
+<img width = "3%" src = "md/prettier-1.svg
 "/>
 
 ```sh

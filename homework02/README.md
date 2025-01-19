@@ -43,15 +43,14 @@ pnpm preview
 ```
 
 린팅 검사
-<img width = "4%" src = "https://github.com/user-attachments/assets/f0c73ac1-b397-4d2d-be88-8c2ea4fecda4"/>
+<img width = "2%" src = "https://github.com/user-attachments/assets/f0c73ac1-b397-4d2d-be88-8c2ea4fecda4"/>
 
 ```sh
 pnpm lint
 ```
 
 포멧팅
-<img width = "3%" src = "https://github.com/user-attachments/assets/e35e8534-8344-440c-86c7-ef3142069f65
-"/>
+<img width = "15px" src = "https://github.com/user-attachments/assets/e35e8534-8344-440c-86c7-ef3142069f65"/>
 
 ```sh
 pnpm format

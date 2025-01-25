@@ -1,0 +1,20 @@
+:root {
+  /* Color styles */
+  --blue: rgba(0, 116, 233, 1);
+  --white: rgba(255, 255, 255, 1);
+  --vivid-white: rgba(244, 244, 244, 1);
+  --light-gray: rgba(204, 204, 204, 1);
+  --medium-gray: rgba(170, 169, 169, 1);
+  --gray: rgba(146, 146, 146, 1);
+  --dark-gray: rgba(85, 85, 85, 1);
+  --black: rgba(17, 17, 17, 1);
+  --red: rgba(229, 37, 40, 1);
+  --purple: rgba(93, 58, 192, 1);
+  --disabled----light-blue: rgba(212, 224, 237, 1);
+  --disabled----blue: rgba(151, 170, 189, 1);
+  --disabled----gray: rgba(223, 223, 223, 1);
+
+  /* Effect styles */
+  --shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+  --button-shadow: 0px 1px 3px rgba(0, 0, 0, 0.45);
+}

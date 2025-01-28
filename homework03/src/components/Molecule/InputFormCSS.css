@@ -2,7 +2,61 @@
   form {
     display: flex;
     flex-direction: column;
-    margin: auto;
     width: 50%;
+    gap: 10px;
+    min-width: 320px;
+  }
+
+  .login__info {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .auto-login {
+    color: var(--dark-gray);
+    font-size: 14px;
+  }
+
+  .auto-login__container {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+  }
+
+  #auto-login {
+    all: unset;
+    width: 12px;
+    height: 12px;
+    background-color: var(--vivid-white);
+    border: 1px solid var(--light-gray);
+    box-shadow: var(--shadow);
+    margin-right: 5px;
+    margin-inline-end: 5px;
+  }
+
+  #auto-login:checked {
+    /* background-color: var(--blue); */
+    background-image: url('../../assets/checked.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #auto-login:focus-visible {
+    outline: 2px solid var(--blue);
+  }
+
+  .find-id {
+    color: var(--blue);
+    text-decoration: none;
+  }
+
+  .simbol {
+    width: 16px;
+    height: 16px;
+  }
+
+  hr {
+    width: 100%;
+    border: 0.5px solid var(--light-gray);
   }
 }

@@ -1,18 +1,53 @@
 @layer components {
-  input {
+  .input {
     width: 100%;
     height: 50px;
     border: none;
     padding: 8px;
+    border-left: 0.5px solid var(--light-gray);
   }
 
-  .input {
+  .input__container {
     display: flex;
+    border: 1px solid var(--light-gray);
   }
 
   .icon {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-inline: 10px;
+  }
+
+  .error {
+    border: 1.3px solid var(--red);
+  }
+
+  .error-msg {
+    color: var(--red);
+    font-size: 15px;
+    margin: 4px;
+  }
+
+  .visible {
+    all: unset;
+    width: 45px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+    }
+  }
+
+  .visible:focus-visible {
+    outline: 2px solid var(--blue);
+    border-radius: 1px;
   }
 }

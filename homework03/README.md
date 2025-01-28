@@ -40,7 +40,8 @@ coponents
 - 요소간의 `색상 대비` 관련 문제 발생
 
 **접근성 결과화면**
-![접근성 결과화면](ezgif-47bc0358ce799.gif)
+
+<video controls src="접근성.mp4" title="Title"></video>
 
 ### 🤩 성능
 

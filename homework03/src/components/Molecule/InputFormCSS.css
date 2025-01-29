@@ -25,6 +25,7 @@
 
   #auto-login {
     all: unset;
+    box-sizing: border-box;
     width: 12px;
     height: 12px;
     background-color: var(--vivid-white);

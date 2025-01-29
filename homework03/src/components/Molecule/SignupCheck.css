@@ -1,0 +1,22 @@
+@layer components {
+  .signup-check {
+    width: 100%;
+  }
+  .check-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    border: 1px solid var(--light-gray);
+    padding: 10px;
+  }
+
+  .desc {
+    font-size: 0.8rem;
+    color: var(--dark-gray);
+  }
+
+  .check {
+    margin-right: 8px;
+    margin-inline-end: 8px;
+  }
+}

@@ -5,7 +5,7 @@ interface CommonButtonProps {
   type: 'submit' | 'button' | 'reset' | undefined;
   func?: () => void;
   mode: 'primary' | 'secondary';
-  disabled: boolean;
+  disabled?: boolean;
 }
 
 function CommonButton({

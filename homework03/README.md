@@ -41,21 +41,21 @@ coponents
 
 **접근성 결과화면**
 
-<video controls src="접근성.mp4" title="Title"></video>
+![Image](https://github.com/user-attachments/assets/0c927c59-d35d-4236-8d54-bfd4b07a95a0)
 
 ### 🤩 성능
 
 - Vite의 `플러그인`을 이용해 부족한 성능을 개선
 - 개선 전 / 후 차이
 
-  <p align="center">  
-  <img src="image-3.png" align="center" width="32%">  
-  <img src="image-4.png" align="center" width="32%">    <figcaption align="center">개선전 ➡️ 개선 후</figcaption>
+  <p align="center">
+  <img src="https://github.com/user-attachments/assets/c50c4288-b038-46bb-87d4-ea823e44fe1a"  width="32%">  
+  <img src="https://github.com/user-attachments/assets/6bee77aa-fbe8-4e20-aa2e-6ee04957878c"  width="30%">    
   </p>
 
 ### 💻 최종 결과
 
-![alt text](image-1.png)
+![alt text](https://github.com/user-attachments/assets/54f159e9-a14d-42b8-93bb-288f48f2fa5a)
 
 ### 💬 회고
 

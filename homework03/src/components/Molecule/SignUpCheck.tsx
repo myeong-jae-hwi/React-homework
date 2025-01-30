@@ -47,6 +47,10 @@ function SignupCheck() {
   };
 
   const handleAllCheck = () => {
+    if (checkItem.length === data.length) {
+      setCheckItem([]);
+      return;
+    }
     setCheckItem(data.map((item) => item.message));
   };
 

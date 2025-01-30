@@ -8,12 +8,14 @@ function SighUp() {
 
       <InputComponent
         type="email"
+        name="email"
         placeholder="아이디 (이메일)"
         title="이메일"
         icon="email.svg"
       />
       <InputComponent
         type="password"
+        name="password"
         placeholder="비밀번호"
         title="패스워드"
         icon="pw.svg"
@@ -21,6 +23,7 @@ function SighUp() {
 
       <InputComponent
         type="password"
+        name="passwordCheck"
         placeholder="비밀번호 확인"
         title="패스워드 확인"
         icon="pw.svg"
@@ -28,6 +31,7 @@ function SighUp() {
 
       <InputComponent
         type="text"
+        name="name"
         placeholder="이름"
         title="이름"
         icon="user.svg"
@@ -35,6 +39,7 @@ function SighUp() {
 
       <InputComponent
         type="tel"
+        name="phone"
         placeholder="휴대폰 번호"
         title="휴대폰 번호"
         icon="phone.svg"

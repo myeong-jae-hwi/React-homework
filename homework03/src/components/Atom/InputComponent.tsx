@@ -5,6 +5,7 @@ interface InputComponentProps {
   title: string;
   placeholder: string;
   type: string;
+  name: string;
   icon: string;
   error?: boolean;
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
@@ -15,6 +16,7 @@ function InputComponent({
   placeholder,
   type,
   icon,
+  name,
   error = false,
   onChange,
 }: InputComponentProps) {
@@ -42,6 +44,7 @@ function InputComponent({
         </label>
         <input
           type={type}
+          name={name}
           placeholder={placeholder}
           id={id}
           className="input"

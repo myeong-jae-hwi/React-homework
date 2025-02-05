@@ -25,16 +25,17 @@ function CountButton({ max, changeCount, price }: CountButtonProps) {
 
   return (
     <div className="count-button border border-gray-300 inline-flex bg-gray-100 rounded-full text-gray-700 min-w-20 h-10 justify-evenly">
+      <button onClick={minus} className="font-bold">
+        -
+      </button>
+
+      <span>{count}</span>
       <button
         onClick={plus}
         disabled={count === max ? true : false}
         className="font-bold"
       >
         +
-      </button>
-      <span>{count}</span>
-      <button onClick={minus} className="font-bold">
-        -
       </button>
     </div>
   );

@@ -1,0 +1,16 @@
+@import 'tailwindcss';
+
+@theme {
+  /* 디자인 토큰 구성 */
+  --white: #ffffff;
+  --black: #000000;
+  --gray--100: #eeeeee;
+  --gray--200: #cccccc;
+  --gray--300: #b3b3b3;
+  --gray--400: #999999;
+  --gray--500: #808080;
+  --gray--600: #666666;
+  --gray--700: #4d4d4d;
+  --gray--800: #333333;
+  --gray--900: #1a1a1a;
+}

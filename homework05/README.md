@@ -44,29 +44,29 @@
 
 **Atom**
 
-`Badge`
+- `Badge`
 
-- 포켓몬의 타입을 받는 컴포넌트. 지정한 타입이 아닐 경우에 에러가 발생하도록 구현
+  - 포켓몬의 타입을 받는 컴포넌트. 지정한 타입이 아닐 경우에 에러가 발생하도록 구현
 
-`Card`
+- `Card`
 
-- 포켓몬의 정보를 볼 수 있도록 구현한 카드뷰. api와 직접적인 통신을 하는 컴포넌트
+  - 포켓몬의 정보를 볼 수 있도록 구현한 카드뷰. api와 직접적인 통신을 하는 컴포넌트
 
-`SearchInput`
+- `SearchInput`
 
-- 검색 컴포넌트. SearchPage에서 받은 상태를 변경하는 역학을 함
+  - 검색 컴포넌트. SearchPage에서 받은 상태를 변경하는 역학을 함
 
 **Molecule**
 
-`CardList`
+- `CardList`
 
-- 카드 리스트 컴포넌트. SearchPage에서 쿼리를 받으며 해당 쿼리를 이용해 리스트를 렌더링함
+  - 카드 리스트 컴포넌트. SearchPage에서 쿼리를 받으며 해당 쿼리를 이용해 리스트를 렌더링함
 
 **Organism**
 
-`SearchPage`
+- `SearchPage`
 
-- SearchInput 와 CardList 의 부모 컴포넌트. 두 컴포넌트의 상태를 공유하는 역할을 함
+  - SearchInput 와 CardList 의 부모 컴포넌트. 두 컴포넌트의 상태를 공유하는 역할을 함
 
 ### 💬 회고
 

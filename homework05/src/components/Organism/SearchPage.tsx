@@ -7,7 +7,7 @@ function SearchPage() {
   console.log(searchData);
 
   return (
-    <div className="w-full h-full p-10 bg-[url('/assets/image.png')] bg-cover">
+    <div className="w-full min-h-screen p-10 bg-[url('/assets/image.png')] bg-cover">
       <SearchInput query={searchData} setQuery={setSearchData}></SearchInput>
       <CardList query={searchData}></CardList>
     </div>

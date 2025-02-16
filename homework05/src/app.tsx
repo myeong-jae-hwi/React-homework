@@ -1,7 +1,7 @@
-import Badge from '@/components/Atom/Badge';
+import SearchPage from './components/Organism/SearchPage';
 
 function App() {
-  return <Badge type="fire">풀</Badge>;
+  return <SearchPage></SearchPage>;
 }
 
 export default App;

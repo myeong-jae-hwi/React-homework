@@ -34,9 +34,10 @@
 
 **결과화면**
 
-![Image](https://github.com/user-attachments/assets/4027b391-ba80-42f9-9416-4953ea6d3773)
+![Image](https://github.com/user-attachments/assets/1e1edf98-112f-47f1-9360-62dfefeffd42)
 
 **Lighthouse 지표**
+
 <img width="456" alt="Image" src="https://github.com/user-attachments/assets/1e1a81c6-d196-4dc0-a3dd-76a256fe7e3c" />
 
 ### 💬 회고

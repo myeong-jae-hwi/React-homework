@@ -18,9 +18,9 @@ function Card({ id, type, name }: CardProps) {
         const response = await fetch(`${END_POINT}/${id}`);
         if (response.ok) {
           const data = await response.json();
-          console.log(data);
+          // console.log(data);
           setImage(data.sprites.other['official-artwork'].front_default);
-          console.log(image);
+          // console.log(image);
         }
       } catch (error) {
         console.log('데이터를 불러오는데 실패했습니다');

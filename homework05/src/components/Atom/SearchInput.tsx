@@ -1,18 +1,35 @@
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Search } from '@mynaui/icons-react';
 import throttle from '@/utils/throttle';
 
-function SearchInput() {
+interface SearchInputProps {
+  query: string;
+  setQuery: (query: string) => void;
+}
+
+function SearchInput({ query, setQuery }: SearchInputProps) {
   const [inputData, setInputData] = useState('');
+  const searchInputRef = useRef<HTMLInputElement>(null);
+
+  const handleFocus = () => {
+    if (searchInputRef.current) {
+      searchInputRef.current.focus();
+    }
+  };
+
+  useEffect(() => {
+    handleFocus();
+  }, []);
 
   const handleSubmit = () => {
-    console.log('검색어:', inputData);
+    console.log('검색어:', query);
+    setQuery(query);
   };
 
   const handleChange = (e: React.ChangeEvent) => {
     const target = e.target as HTMLInputElement;
-    setInputData(target.value);
-    console.log(target.value);
+    setQuery(target.value);
+    // console.log('query : ', query);
   };
 
   const handleThrottle = throttle(handleChange, 300);
@@ -22,9 +39,10 @@ function SearchInput() {
         <div className="relative">
           <label className="sr-only">Search</label>
           <input
+            ref={searchInputRef}
             type="text"
             className=" border-2 rounded-full border-green-500 w-2xl p-2 pl-6"
-            defaultValue={inputData[0]}
+            defaultValue={query[0]}
             onChange={handleThrottle}
           ></input>
           <button

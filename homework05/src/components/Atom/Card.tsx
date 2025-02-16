@@ -31,8 +31,8 @@ function Card({ id, type, name }: CardProps) {
   }, []);
 
   return (
-    <div className="inline-flex flex-col items-center border m-1 w-full h-full cursor-pointer bg-white/30 rounded-2xl shadow-lg backdrop-blur-[9.5px] border-white/60">
-      <span className="text-2xl font-bold">{name}</span>
+    <div className="inline-flex flex-col items-center border m-1 w-full h-full cursor-pointer bg-white/70 rounded-2xl shadow-lg backdrop-blur-[9.5px] border-white/60">
+      <span className="text-2xl font-bold mt-10">{name}</span>
       {image ? (
         <img src={image} alt={name} className="w-32 h-32 mt-2" />
       ) : (

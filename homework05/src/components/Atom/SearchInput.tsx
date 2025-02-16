@@ -44,7 +44,7 @@ function SearchInput({ query, setQuery }: SearchInputProps) {
             ref={searchInputRef}
             type="text"
             id="search"
-            className=" border-2 rounded-full border-green-500 w-2xl p-2 pl-6"
+            className=" border-2 rounded-full border-green-500 w-2xl p-2 pl-6 bg-white "
             defaultValue={query[0]}
             onChange={handleThrottle}
           ></input>

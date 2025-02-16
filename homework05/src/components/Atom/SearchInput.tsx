@@ -37,10 +37,13 @@ function SearchInput({ query, setQuery }: SearchInputProps) {
     <>
       <form action="" className=" flex justify-center items-center w-full h-20">
         <div className="relative">
-          <label className="sr-only">Search</label>
+          <label className="sr-only" htmlFor="search">
+            Search
+          </label>
           <input
             ref={searchInputRef}
             type="text"
+            id="search"
             className=" border-2 rounded-full border-green-500 w-2xl p-2 pl-6"
             defaultValue={query[0]}
             onChange={handleThrottle}
@@ -49,6 +52,7 @@ function SearchInput({ query, setQuery }: SearchInputProps) {
             type="submit"
             className=" bg-emerald-600  text-white rounded-full absolute right-1.5 p-2 top-1.5"
             onClick={handleSubmit}
+            aria-label="검색"
           >
             <Search size={20}></Search>
           </button>
